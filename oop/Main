@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person vitya=new Person(120, "vitya");
+
+		vitya.say("Vlad");
+		System.out.println(vitya.name + "'s height is " + vitya.height);
+		
+		Person dima=new Person("Dima" );
+		System.out.println(dima.name);
+		
+		
+	}
+
+}
