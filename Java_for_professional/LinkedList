@@ -1,0 +1,22 @@
+
+import java.util.LinkedList;
+
+public class Examples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int some [] =new int[4];
+		
+		LinkedList<String> names =new LinkedList<>( );
+		names.add("Tom");
+		names.add("Anna");
+		names.add("Vitalii");
+
+		names.add(1, "Alex");
+		
+		for (String x:names) {
+			System.out.println(x);
+		}
+	}
+}
