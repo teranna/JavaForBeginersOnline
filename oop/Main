@@ -9,8 +9,7 @@ public class Main {
 		
 		Person dima=new Person("Dima" );
 		System.out.println(dima.name);
-		
-		
+				
 	}
 
 }
